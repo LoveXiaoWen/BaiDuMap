@@ -10,14 +10,14 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    signingConfigs{
-        debug{
+    signingConfigs {
+        debug {
             storeFile file("jks/xiaowen.jks")
             storePassword "123456"
             keyAlias "key0"
             keyPassword "123456"
         }
-        release{
+        release {
             storeFile file("jks/xiaowen.jks")
             storePassword "123456"
             keyAlias "key0"

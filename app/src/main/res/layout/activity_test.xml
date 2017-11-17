@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="weinxin.example.com.baidumap.Test">
+
+    <Button
+        android:id="@+id/but_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位" />
+
+    <Button
+        android:id="@+id/but_orientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图层定位" />
+
+    <Button
+        android:id="@+id/but_mulch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="覆盖物" />
+</LinearLayout>
